@@ -3,12 +3,12 @@ class Umbrella {
         var options = {
             isStatic: true,
         }
-        this.image = loadImage("Walking Frame/walking_1.png");
+        this.image = loadImage("walking_1.png");
         this.umbrella = Bodies.circle(x,y,50,options);
         this.radius = 50;
         World.add(world, this.umbrella)
         //load Image for BestMan
-        this.batmanImg = loadImage("bat/Bestman-01.png");
+        this.batmanImg = loadImage("Bestman-01.png");
 
     }
 
