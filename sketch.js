@@ -42,7 +42,7 @@ function draw(){
     Engine.update(engine);
     background(0); 
 
-    if (frameCount%10===0) {
+    if (frameCount%3===0) {
         maxDrops.push(new Drop(random(0,400),random(0,400)))
       }
 
